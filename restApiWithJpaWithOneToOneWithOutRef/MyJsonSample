@@ -1,0 +1,11 @@
+ Sample Save Entry Json:-
+{
+        "id": 1,
+        "title": "Python Shikto ga",
+        "author": {
+            "authorId":1,
+            "firstName":"sameer",
+            "lastName":"kadgaye",
+            "language":"Hindi"
+        }
+}

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Success Page</title>
+</head>
+<body>
+	<h1>Successfully Submitted</h1>
+	<h1 th:text="${loginData.username}"></h1>
+	<h1 th:text="${loginData.email}"></h1>
+	<h1 th:text="${loginData.agreed}"></h1>
+</body>
+</html>

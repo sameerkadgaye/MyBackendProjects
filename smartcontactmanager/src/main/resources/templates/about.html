@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8" />
+<title>About Page</title>
+</head>
+<body>
+	<section>
+		<h1>About You :</h1>
+		<img alt="MyImg" class="profile" th:src="@{/img/sameerCarShoot.jpg}"
+			height="200px;" width="200px;">
+		<h4 style="color: red;">About Me I am Sameer Kadgaye</h4>
+
+	</section>
+</body>
+</html>
