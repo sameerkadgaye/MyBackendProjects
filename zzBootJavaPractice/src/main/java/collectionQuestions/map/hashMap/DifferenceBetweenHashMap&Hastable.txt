@@ -1,0 +1,10 @@
+• DIFFERENCE BETWEEN HASHMAP & HASTABLE.
+
+		    HASHMAP 																									HASHTABLE                         
+1) No method is synchronized.(Non synchronized)															1) Every method is synchronized.              
+2) Multiple Threads can operate simultaneously on HashMap object and hence it is not Thread safe.		2) Multiple Threads can’t operate simultaneously on Hashtable object and hence Hashtable object is Thread safe.
+                                                                                                                
+3) Relatively performance is high. 																		3) Relatively performance is low.             
+4) Null is allowed for both key and value. 																4) Null is not allowed for both key and  value otherwise we will get NullPointerException.          
+																                       
+5) It is non legacy and introduced in 1.2v.					    										5) It is legacy and introduced in 1.0v        

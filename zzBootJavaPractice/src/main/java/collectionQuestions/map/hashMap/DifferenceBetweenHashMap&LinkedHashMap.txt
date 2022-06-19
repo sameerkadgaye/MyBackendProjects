@@ -1,0 +1,6 @@
+• Differences between HashMap and LinkedHashMap?                                                                                     
+                                                                                                                                     
+			HASHMAP 												LINKEDHASHMAP                                                      
+1) The underlying data structure is Hashtable.		    	1) The underlying data structure is a combination of Hashtable+ LinkedList.
+2) Insertion order is not preserved. 					    2) Insertion order is preserved.                                           
+3) introduced in 1.2.v. 								    3) Introduced in 1.4v.                                                     

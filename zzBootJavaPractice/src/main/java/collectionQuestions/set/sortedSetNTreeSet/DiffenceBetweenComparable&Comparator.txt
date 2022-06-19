@@ -1,0 +1,8 @@
+Compression of Comparable and Comparator?
+
+				COMPARABLE 															       		COMPARATOR
+				
+1) Comparable meant for default natural sorting order.                      1) Comparator meant for customized sorting order.
+2) Present in java.lang package. 									        2) Present in java.util package.
+3) Contains only one method. compareTo() method.            			    3) Contains 2 methods. compare() method. equals() method here equal() method is optional here.
+4) String class and all wrapper Classes implements Comparable interface.    4) No predefined class implements Comparator.

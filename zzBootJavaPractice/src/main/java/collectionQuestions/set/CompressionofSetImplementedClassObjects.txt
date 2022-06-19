@@ -1,0 +1,13 @@
+COMPRESSION OF SET IMPLEMENTED CLASS OBJECTS:
+
+	PROPERTY 									 HASHSET	 							LINKEDHASHSET	 							TREESET
+	
+1) Underlying Data structure.				   	Hashtable. 							LinkedList+Hashtable.						Balanced Tree.
+2) Insertion order. 							Not preserved. 						Preserved. 									Not preserved (bydefault).
+3) Duplicate objects. 							Not allowed. 						Not allowed. 								Not allowed.
+4) Sorting order. 								Not applicable. 					Not applicable. 							Applicable.
+5) Heterogeneous objects.						Allowed.							Allowed. 									Not allowed.
+
+6) Null insertion. 							    Allowed. 							Allowed. 									For the empty TreeSet as the 1st element 
+																																null insertion is possible in all other cases we
+																																will get NPE.
